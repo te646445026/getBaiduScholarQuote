@@ -1,0 +1,2 @@
+# getBaiduScholarQuote
+get BaiduScholar Quote
