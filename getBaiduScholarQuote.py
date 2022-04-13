@@ -65,10 +65,10 @@ if len(filePath):
             dri.find_element_by_xpath('//*[@id="1"]/div[2]/div/a[2]').click()
             sleep(2)
         else:
-            dri.find_element_by_xpath('//*[@id="dtl_l"]/div[1]/div[3]/div/a[2]/span').click()
+            dri.find_element_by_xpath('//*[@id="dtl_l"]/div[1]/div[3]/div/a[2]').click()
             sleep(2)
         try:
-            tempresult = dri.find_element_by_xpath('//*[@data-type="GB/T"]').text
+            tempresult = dri.find_element_by_xpath('//*[@data-type="GB/T"]/p').text
         except:
             tempresult = '引用出错'
     
